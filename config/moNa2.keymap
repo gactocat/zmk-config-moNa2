@@ -71,7 +71,7 @@
         layer_2 {
             bindings = <
 &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR
-&kp TILDE  &trans  &trans    &trans    &trans     &trans    &trans  &kp LEFT   &kp UP    &kp DOWN  &kp RIGHT  &kp DQT
+&kp TILDE  &trans  &trans    &trans    &trans     &trans    &trans  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp DQT
 &trans     &trans  &trans    &trans    &trans     &trans    &trans  &kp LBRC   &kp RBRC  &kp PIPE  &kp UNDER  &kp PLUS
 &trans     &trans  &trans    &trans    &trans     &trans    &trans  &trans                                    &trans
             >;
