@@ -67,7 +67,7 @@
 &kp N1     &kp N2      &kp N3       &kp N4      &kp N5                        &kp N6        &kp N7    &kp N8    &kp N9         &kp N0
 &kp GRAVE  &kp C_PREV  &kp C_PAUSE  &kp C_PLAY  &kp C_NEXT  &trans    &trans  &kp LG(LEFT)  &mkp MB1  &mkp MB2  &kp LG(RIGHT)  &kp SQT
 &trans     &trans      &trans       &trans      &trans      &trans    &trans  &kp LBKT      &kp RBKT  &kp BSLH  &kp MINUS      &kp EQUAL
-&tog 0     &trans      &trans       &trans      &trans      &trans    &trans  &trans                                           &trans
+&trans     &trans      &trans       &trans      &trans      &trans    &trans  &trans                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
@@ -78,7 +78,7 @@
 &kp EXCL   &kp AT  &kp HASH  &kp DLLR  &kp PRCNT                    &kp CARET  &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR
 &kp TILDE  &trans  &trans    &trans    &trans     &trans    &trans  &kp LEFT   &kp DOWN  &kp UP    &kp RIGHT  &kp DQT
 &trans     &trans  &trans    &trans    &trans     &trans    &trans  &kp LBRC   &kp RBRC  &kp PIPE  &kp UNDER  &kp PLUS
-&tog 0     &trans  &trans    &trans    &trans     &trans    &trans  &trans                                    &trans
+&trans     &trans  &trans    &trans    &trans     &trans    &trans  &trans                                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRI_DN C_BRI_UP>;
@@ -88,8 +88,8 @@
             bindings = <
 &kp F1        &kp F2        &kp F3        &kp F4  &kp F5                                &kp F6        &kp F7    &kp F8    &kp F9         &kp F10
 &kp F11       &kp F12       &trans        &trans  &trans      &trans            &trans  &kp LG(LEFT)  &mkp MB1  &mkp MB2  &kp LG(RIGHT)  &trans
-&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &tog 0        &tog 1    &tog 2    &tog 3         &trans
-&tog 0        &trans        &trans        &trans  &trans      &trans            &trans  &trans                                           &trans
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &bt BT_CLR  &bt BT_CLR_ALL    &trans  &trans        &trans    &trans    &trans         &trans
+&trans        &trans        &trans        &trans  &trans      &trans            &trans  &trans                                           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LG(PLUS) LG(MINUS)>;
